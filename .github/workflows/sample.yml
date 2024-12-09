@@ -1,17 +1,17 @@
 name: "Sample Python Setup workflow"
 
 on:
-    push:
-        branches:
-            - master
-    pull_request:
-        branches:
-            - master
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
     python-setup-job:
         runs-on: wisdows-latest
-
+ 
         steps:
             - name: "Setup python"
               uses: actions/setup-python@v5
