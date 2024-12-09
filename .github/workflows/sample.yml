@@ -10,7 +10,7 @@ on:
 
 jobs:
     python-setup-job:
-        runs-on: wisdows-latest
+        runs-on: windows-latest
  
         steps:
             - name: "Setup python"
